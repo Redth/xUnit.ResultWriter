@@ -13,7 +13,7 @@ namespace Xunit.ResultWriter
 		/// <summary>
 		/// The number of seconds the test collection run took, in decimal format.
 		/// </summary>
-		public decimal Time { get; set; }
+		public decimal Time => TestItems.Sum(t => t.Time);
 
 		/// <summary>
 		/// The total number of test cases run in the test collection.
