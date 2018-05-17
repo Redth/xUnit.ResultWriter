@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>redth.xunit.resultwriter</PackageId>
+    <Title>Redth's xUnit Result Writer</Title>
+    <PackageTags>xunit xml</PackageTags>
+    <Authors>Redth</Authors>
+    <Owners>Redth</Owners>
+    <Description>Write xUnit v2 XML Result files without xUnit.</Description>
+    <summary>Write xUnit v2 XML Result files without xUnit.</summary>
+    <PackageProjectUrl>https://github.com/Redth/xUnit.ResultWriter</PackageProjectUrl>
+  </PropertyGroup>
+
+</Project>
